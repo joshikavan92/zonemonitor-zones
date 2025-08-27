@@ -1,0 +1,63 @@
+[
+  {
+    "id": "corporate-hq",
+    "name": "Corporate Headquarters",
+    "type": "whitelist",
+    "shape": "circle",
+    "center": {
+      "lat": 37.7749,
+      "lon": -122.4194
+    },
+    "radius_m": 500,
+    "priority": 1
+  },
+  {
+    "id": "branch-office",
+    "name": "Branch Office",
+    "type": "whitelist",
+    "shape": "circle",
+    "center": {
+      "lat": 37.7849,
+      "lon": -122.4294
+    },
+    "radius_m": 300,
+    "priority": 2
+  },
+  {
+    "id": "competitor-office",
+    "name": "Competitor Office (Restricted)",
+    "type": "blacklist",
+    "shape": "circle",
+    "center": {
+      "lat": 37.7649,
+      "lon": -122.4094
+    },
+    "radius_m": 200,
+    "priority": 3
+  },
+  {
+    "id": "restricted-area",
+    "name": "Restricted Industrial Area",
+    "type": "blacklist",
+    "shape": "polygon",
+    "vertices": [
+      {
+        "lat": 37.7800,
+        "lon": -122.4200
+      },
+      {
+        "lat": 37.7800,
+        "lon": -122.4100
+      },
+      {
+        "lat": 37.7700,
+        "lon": -122.4100
+      },
+      {
+        "lat": 37.7700,
+        "lon": -122.4200
+      }
+    ],
+    "priority": 4
+  }
+]
