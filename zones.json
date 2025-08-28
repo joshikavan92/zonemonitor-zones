@@ -59,5 +59,17 @@
       }
     ],
     "priority": 4
+  },
+  {
+    "id": "test-zone",
+    "name": "Test Zone",
+    "type": "whitelist",
+    "shape": "circle",
+    "center": {
+      "lat": 18.541110725696182,
+      "lon": 73.94052966735802
+    },
+    "radius_m": 500,
+    "priority": 5
   }
 ]
