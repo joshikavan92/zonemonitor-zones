@@ -63,7 +63,7 @@
   {
     "id": "test-zone",
     "name": "Test Zone",
-    "type": "blacklist",
+    "type": "whitelist",
     "shape": "circle",
     "center": {
       "lat": 18.541110725696182,
